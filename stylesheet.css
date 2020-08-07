@@ -329,25 +329,23 @@ header {
   width: 35.5%;
   margin: 8.1rem 0 8.9rem 0; }
   /* line 355, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
-  .member figure {
+  .member img {
+    width: 100%;
     margin-bottom: 8.6rem; }
   /* line 360, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
-  .member img {
-    width: 100%; }
-  /* line 364, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .member figcaption {
     font-size: 3rem;
     font-weight: bold; }
-  /* line 369, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  /* line 365, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .member p {
     font-size: 1.6rem;
     margin: 3.6rem 0; }
-    /* line 373, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    /* line 369, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .member p.sns {
       margin: 1.7rem 0; }
 
 /*footer*/
-/* line 382, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 378, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 footer {
   display: flex;
   justify-content: space-between;
@@ -356,7 +354,7 @@ footer {
   height: 22rem;
   width: 33.4vw;
   margin: 0 auto; }
-  /* line 388, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  /* line 384, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   footer p {
     font-size: 1.6rem;
     font-weight: bold;
