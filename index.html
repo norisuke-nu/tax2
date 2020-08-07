@@ -6,6 +6,7 @@
     <title>本発売記念サイト</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="stylesheet.css">
+   <link rel="stylesheet" href="responsive.css" media="screen and (max-width:670px)">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="index.js"></script>
@@ -13,10 +14,14 @@
   <body>
 
     <header>
-        <a href="#top"><div class="flex-center">
+        <a href="#top">
+            <div class="header-contents">
+            <div>
           <img src="images/header_ico_logo_01.png" alt="ヘッダーロゴ">
+            </div>
           <p>本発売記念サイト</p>
-        </div></a>
+            </div>
+        </a>
     </header>
       
       
@@ -26,8 +31,8 @@
       <div class="container">
         <div class="mv-content">
           <div class="mv-text">
-          <h1>ギリギリぶっちゃけ</h1>
-          <h1>納税診断</h1>
+          <h1><span class="tit">ギリギリぶっちゃけ</span></h1>
+          <h1><span class="tit">納税診断</span></h1>
           </div>
         </div>
         <div class="top-icon">
@@ -39,11 +44,9 @@
     <section class="wrapper" class="anchor" id="test">
         <div class="container">
         <div class="start">
-        <div class="flex-center">
-          <img src="images/index_ico_book_01.png" alt="本">
+          <div><img src="images/index_ico_book_01.png" alt="本"></div>
           <h2>Let's Start!</h2>
-          <img src="images/index_ico_book_01.png" alt="本">
-        </div>
+          <div><img src="images/index_ico_book_01.png" alt="本"></div>
         </div>
             
         </div>
@@ -89,7 +92,7 @@
         <h2>納税のことコレ一冊！</h2>
       </div>
         <article class="book-content">
-          <div class="flex">
+          
             <figure>
               <img src="images/index_img_book_01.png" alt="納税についての書籍">
             </figure>
@@ -101,8 +104,7 @@
             
             <a href="#book" class="btn">Amazon</a>
             
-          </div>
-        </div>
+            </div>
         </article>
       </div>
     </section>
@@ -110,7 +112,7 @@
     <section class="wrapper" id="member">
         <div class="container">
           <section class="members">
-          <ul class="flex">
+          <ul>
                   <li class="member">
                       <figure class="member_img">
                           <img src="images/index_img_man_01.png" alt="ジョン">

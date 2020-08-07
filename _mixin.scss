@@ -1,1 +1,38 @@
 $main-color:#C4CCEB;
+$accent-color:#707070;
+$font-color:black;
+
+
+@mixin flex($justify,$align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap:wrap;
+}
+
+@mixin sectionlist-img($rotate){
+    width:20.04rem;
+    transform: rotate($rotate);
+    transform-origin: center 50%; 
+}
+
+@mixin button{
+    display: block;
+    background-color:white;
+    border-radius: 3em;
+    font-weight: normal;
+    color:$font-color;
+    text-align: center;
+    box-shadow:0.7rem 0.7rem;
+        &:active{
+            position:relative;
+            top:0.7rem;
+            left:0.7rem;
+            background-color:$accent-color;
+            box-shadow:none;
+            }
+        
+}
+
+
+
