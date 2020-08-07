@@ -175,11 +175,11 @@
 
 .member img{
     width:90%;
-    margin:0 auto 39px auto;
 }
     
 .member figcaption{
     font-size:30px;
+    margin:39px auto 0 auto;
 }
     
 .member p{

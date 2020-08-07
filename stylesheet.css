@@ -330,12 +330,12 @@ header {
   margin: 8.1rem 0 8.9rem 0; }
   /* line 355, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .member img {
-    width: 100%;
-    margin-bottom: 8.6rem; }
-  /* line 360, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    width: 100%; }
+  /* line 359, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .member figcaption {
     font-size: 3rem;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-top: 8.6rem; }
   /* line 365, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .member p {
     font-size: 1.6rem;
