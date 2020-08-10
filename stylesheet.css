@@ -5,8 +5,7 @@
 
 /* line 7, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 html {
-  font-size: 0.78125vw;
-  /*10px/1280px*100 */ }
+  font-size: 62.5%; }
 
 /* line 11, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 body {
@@ -23,10 +22,16 @@ a {
 .container {
   width: 78vw;
   margin: 0 auto; }
+  @media (max-width: 670px) {
+    /* line 22, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .container {
+      width: auto;
+      margin: 0 auto;
+      padding: 0 20px; } }
 
 /*header*/
-/* line 29, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
-header {
+/* line 36, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+.header {
   width: 100%;
   height: 13.5%;
   min-height: 112px;
@@ -34,8 +39,8 @@ header {
   top: 0;
   z-index: 99;
   background-color: #C4CCEB; }
-  /* line 38, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
-  header .header-contents {
+  /* line 45, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  .header-contents {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,47 +48,66 @@ header {
     width: 236px;
     margin: 0 auto;
     height: 100%; }
-    /* line 44, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
-    header .header-contents p {
+    /* line 51, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .header-contents p {
       font-size: 20px;
       letter-spacing: 0.2;
       margin-left: 14px; }
-    /* line 50, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
-    header .header-contents img {
+    /* line 57, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .header-contents img {
       width: 100%;
       margin-bottom: 1em; }
 
 /*top*/
-/* line 60, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 67, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .top-wrapper {
   height: 73.9rem;
   min-height: 422px; }
+  @media (max-width: 670px) {
+    /* line 67, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .top-wrapper {
+      height: 42.2rem; } }
 
-/* line 65, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 75, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .mv-content {
   width: 100%;
   height: 63.9rem;
   min-height: 372px; }
+  @media (max-width: 670px) {
+    /* line 75, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .mv-content {
+      height: 37.2rem; } }
 
-/* line 71, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 85, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .mv-text {
   position: absolute;
   top: 21.7rem; }
-  /* line 77, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
-  .mv-text .tit {
-    color: black;
-    display: inline-block;
-    font-size: 8rem;
-    font-weight: bold;
-    padding: 5rem;
-    margin-bottom: 2.6rem;
-    background-color: white; }
+  @media (max-width: 670px) {
+    /* line 85, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .mv-text {
+      position: absolute;
+      top: 112px; } }
 
-/* line 90, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 94, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+.tit {
+  color: black;
+  display: inline-block;
+  font-size: 8rem;
+  font-weight: bold;
+  padding: 5rem;
+  margin-bottom: 2.6rem;
+  background-color: white; }
+  @media (max-width: 670px) {
+    /* line 94, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .tit {
+      font-size: 26px;
+      padding: 16px; } }
+
+/* line 111, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .top-icon {
   width: 100%;
   height: 10rem; }
-  /* line 94, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  /* line 115, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .top-icon img {
     position: relative;
     top: 50%;
@@ -93,44 +117,57 @@ header {
     -ms-transform: translate(-50%, -50%); }
 
 /*test*/
-/* line 105, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 126, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 #test {
   padding-top: 5rem;
   margin-top: -5rem; }
 
-/* line 110, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 131, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .start {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
   width: 52.7%;
   /*675px*/
   min-width: 210px;
   margin: 17rem auto 11.3rem auto; }
-  /* line 116, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
-  .start div {
-    width: 12.4%;
-    /*84px*/
-    min-width: 33.45px; }
-    /* line 120, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
-    .start div img {
-      width: 100%; }
-  /* line 124, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  /* line 136, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .start h2 {
     font-size: 5rem;
-    font-weight: normal; }
+    font-weight: normal;
+    position: relative;
+    text-align: center; }
+    /* line 142, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .start h2:before, .start h2:after {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background: url(images/index_ico_book_01.png) no-repeat;
+      background-size: contain; }
+    /* line 152, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .start h2:before {
+      left: 0; }
+    /* line 156, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .start h2:after {
+      right: 0; }
+    @media (max-width: 670px) {
+      /* line 136, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .start h2 {
+        font-size: 19px; } }
 
 /*score*/
-/* line 133, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 171, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .score-content {
   width: 100%;
-  height: 61rem;
-  min-height: 462px;
   padding: 8.3rem 0;
   border: 1.5rem solid white;
   border-radius: 3em; }
-  /* line 141, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  @media (max-width: 670px) {
+    /* line 171, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .score-content {
+      padding: 52px 0;
+      border: 8px solid white;
+      border-radius: 50px; } }
+  /* line 184, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .score-content h3 {
     width: 68.2%;
     min-width: 255px;
@@ -138,8 +175,12 @@ header {
     font-size: 3rem;
     font-weight: bold;
     line-height: 1.9; }
+    @media (max-width: 670px) {
+      /* line 184, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .score-content h3 {
+        font-size: 18px; } }
 
-/* line 153, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 201, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .score {
   display: flex;
   justify-content: center;
@@ -151,7 +192,12 @@ header {
   margin: 0 auto 5.2rem auto;
   position: relative;
   padding-bottom: 3rem; }
-  /* line 162, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  @media (max-width: 670px) {
+    /* line 201, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .score {
+      margin: 0 auto 108px auto;
+      padding-bottom: 20px; } }
+  /* line 215, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .score:after {
     content: '';
     position: absolute;
@@ -161,39 +207,81 @@ header {
     height: 18px;
     background: repeating-linear-gradient(-45deg, transparent, transparent 48.5%, #707070 49.5%, #707070 50.5%, transparent 51.5%, transparent);
     background-size: 0.7rem 0.7rem; }
-  /* line 177, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    @media (max-width: 670px) {
+      /* line 215, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .score:after {
+        content: '';
+        position: absolute;
+        bottom: -50px;
+        background: repeating-linear-gradient(-45deg, transparent, transparent 48.5%, #707070 49.5%, #707070 50.5%, transparent 51.5%, transparent);
+        background-size: 7px 7px; } }
+  /* line 244, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .score .score01 .score02 {
     font-weight: bold; }
-  /* line 181, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  /* line 248, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .score .score01 {
     font-size: 16rem; }
-  /* line 185, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    @media (max-width: 670px) {
+      /* line 248, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .score .score01 {
+        font-size: 80px; } }
+  /* line 256, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .score .score02 {
     font-size: 10rem; }
+    @media (max-width: 670px) {
+      /* line 256, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .score .score02 {
+        font-size: 50px; } }
 
 /*section*/
-/* line 196, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 270, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .section {
   margin-top: 9rem;
   margin-bottom: 10rem; }
-  /* line 200, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  @media (max-width: 670px) {
+    /* line 270, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .section {
+      margin-top: 119px;
+      margin-bottom: 97px; } }
+  /* line 282, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .section a {
     display: inline-block;
     font-size: 3rem;
     font-weight: bold; }
-  /* line 208, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    @media (max-width: 670px) {
+      /* line 282, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .section a {
+        font-size: 16px; } }
+  /* line 294, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .section li {
     height: 30px; }
-    /* line 211, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    @media (max-width: 670px) {
+      /* line 294, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .section li {
+        height: 16px; } }
+    /* line 301, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .section li:nth-child(1) {
       margin: 0 0 9rem 17.8rem; }
-    /* line 215, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      @media (max-width: 670px) {
+        /* line 301, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        .section li:nth-child(1) {
+          margin: 0 0 30px 0; } }
+    /* line 308, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .section li:nth-child(2) {
       margin-bottom: 2.9rem; }
-    /* line 219, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      @media (max-width: 670px) {
+        /* line 308, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        .section li:nth-child(2) {
+          margin: 0 0 30px 0; } }
+    /* line 315, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .section li:nth-child(3) {
       text-align: right; }
-    /* line 223, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      @media (max-width: 670px) {
+        /* line 315, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        .section li:nth-child(3) {
+          margin: 0 0 30px 0;
+          text-align: left; } }
+    /* line 323, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .section li:nth-child(4) {
       display: flex;
       justify-content: flex-start;
@@ -201,45 +289,82 @@ header {
       flex-wrap: wrap;
       height: 20.04rem;
       margin-left: 3rem; }
-      /* line 228, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      @media (max-width: 670px) {
+        /* line 323, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        .section li:nth-child(4) {
+          display: block;
+          height: 16px;
+          margin: 0 0 30px 0; } }
+      /* line 333, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
       .section li:nth-child(4) img {
         width: 20.04rem;
         transform: rotate(-10deg);
         transform-origin: center 50%; }
-      /* line 232, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        @media (max-width: 670px) {
+          /* line 333, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+          .section li:nth-child(4) img {
+            display: none; } }
+      /* line 340, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
       .section li:nth-child(4) a {
         margin-left: 5rem; }
-    /* line 239, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        @media (max-width: 670px) {
+          /* line 340, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+          .section li:nth-child(4) a {
+            margin-left: 0; } }
+    /* line 351, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .section li:nth-child(5) {
       margin-bottom: 1.2rem;
       text-align: right; }
-    /* line 244, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      @media (max-width: 670px) {
+        /* line 351, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        .section li:nth-child(5) {
+          margin: 0 0 30px 0;
+          text-align: left; } }
+    /* line 360, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .section li:nth-child(6) {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       height: 20.04rem; }
-      /* line 248, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      @media (max-width: 670px) {
+        /* line 360, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        .section li:nth-child(6) {
+          display: block;
+          height: 16px;
+          margin: 0 0 30px 0; } }
+      /* line 369, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
       .section li:nth-child(6) img {
         width: 20.04rem;
         transform: rotate(10deg);
         transform-origin: center 50%; }
-      /* line 252, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        @media (max-width: 670px) {
+          /* line 369, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+          .section li:nth-child(6) img {
+            display: none; } }
+      /* line 376, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
       .section li:nth-child(6) a {
         margin-right: 14rem; }
+        @media (max-width: 670px) {
+          /* line 376, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+          .section li:nth-child(6) a {
+            margin-right: 0; } }
 
 /*book*/
-/* line 263, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 390, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .book-text {
   margin: 0 auto; }
-  /* line 265, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  /* line 392, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .book-text h2 {
     margin: 0 auto;
     text-align: center;
     position: relative;
     font-size: 8rem; }
-    /* line 270, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    @media (max-width: 670px) {
+      /* line 392, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .book-text h2 {
+        font-size: 23px; } }
+    /* line 401, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .book-text h2:before, .book-text h2:after {
       content: '';
       position: absolute;
@@ -249,43 +374,71 @@ header {
       height: 1.3rem;
       border-radius: 3em;
       background-color: white; }
-    /* line 281, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      @media (max-width: 670px) {
+        /* line 401, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        .book-text h2:before, .book-text h2:after {
+          width: 28px;
+          height: 3.85px; } }
+    /* line 417, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .book-text h2:before {
       left: 0;
       -webkit-transform: rotate(60deg);
       transform: rotate(60deg); }
-    /* line 286, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    /* line 422, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .book-text h2:after {
       right: 0;
       -webkit-transform: rotate(-60deg);
       transform: rotate(-60deg); }
 
-/* line 295, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 431, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .book-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
   margin: 12rem 0 23.8rem 0; }
-  /* line 299, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  @media (max-width: 670px) {
+    /* line 431, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .book-content {
+      width: 100%;
+      margin: 65px 0 104px 0; } }
+  /* line 439, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .book-content figure {
     width: 32%; }
-    /* line 301, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    @media (max-width: 670px) {
+      /* line 439, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .book-content figure {
+        width: 100%;
+        margin-bottom: 71px; } }
+    /* line 445, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .book-content figure img {
       width: 100%; }
-  /* line 307, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  /* line 451, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .book-content .text-area {
     width: 60%;
     height: auto; }
-    /* line 311, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    @media (max-width: 670px) {
+      /* line 451, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .book-content .text-area {
+        width: 100%; } }
+    /* line 458, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .book-content .text-area p {
       font-size: 2rem;
       font-weight: bold;
       margin-bottom: 4.1rem; }
-      /* line 317, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      @media (max-width: 670px) {
+        /* line 458, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        .book-content .text-area p {
+          font-size: 16px;
+          margin-bottom: 36px; } }
+      /* line 468, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
       .book-content .text-area p:last-of-type {
         margin-bottom: 6.7rem; }
-  /* line 324, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        @media (max-width: 670px) {
+          /* line 468, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+          .book-content .text-area p:last-of-type {
+            margin-bottom: 93px; } }
+  /* line 478, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .book-content .btn {
     display: block;
     background-color: white;
@@ -293,59 +446,96 @@ header {
     font-weight: normal;
     color: black;
     text-align: center;
-    box-shadow: 0.7rem 0.7rem;
+    box-shadow: 0.7rem 0.7rem black;
+    transition: background-color .3s;
     font-size: 4rem;
     width: 80%;
     height: 10rem;
-    min-height: 75px;
     margin: 0 auto;
     line-height: 10rem; }
-    /* line 27, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/_mixin.scss */
+    /* line 29, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/_mixin.scss */
+    .book-content .btn:hover {
+      color: black;
+      background-color: #E0E0E0; }
+    /* line 34, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/_mixin.scss */
     .book-content .btn:active {
       position: relative;
       top: 0.7rem;
       left: 0.7rem;
-      background-color: #707070;
       box-shadow: none; }
+    @media (max-width: 670px) {
+      /* line 478, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .book-content .btn {
+        width: auto;
+        height: 75px;
+        font-size: 40px;
+        line-height: 75px; } }
 
 /*member*/
-/* line 337, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 496, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 #member {
   background-color: white; }
 
-/* line 342, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 501, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .members ul {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap; }
 
-/* line 346, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
-.members li {
-  list-style: none; }
+@media (max-width: 670px) {
+  /* line 506, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  .members li:nth-child(1) {
+    margin-top: 124px; } }
 
-/* line 351, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 514, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 .member {
   width: 35.5%;
-  margin: 8.1rem 0 8.9rem 0; }
-  /* line 355, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  margin: 8.1rem 0 8.9rem 0;
+  list-style: none; }
+  @media (max-width: 670px) {
+    /* line 514, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    .member {
+      width: auto;
+      margin: 0px auto 157px auto; } }
+  /* line 523, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .member img {
     width: 100%; }
-  /* line 359, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    @media (max-width: 670px) {
+      /* line 523, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .member img {
+        width: 90%; } }
+  /* line 530, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .member figcaption {
     font-size: 3rem;
     font-weight: bold;
     margin-top: 8.6rem; }
-  /* line 365, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    @media (max-width: 670px) {
+      /* line 530, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .member figcaption {
+        font-size: 30px;
+        margin: 39px auto 0 auto; } }
+  /* line 540, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
   .member p {
     font-size: 1.6rem;
     margin: 3.6rem 0; }
-    /* line 369, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    @media (max-width: 670px) {
+      /* line 540, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      .member p {
+        font-size: 16px;
+        margin: 20px 0;
+        line-height: 1.5; } }
+    /* line 549, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
     .member p.sns {
       margin: 1.7rem 0; }
+      @media (max-width: 670px) {
+        /* line 549, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+        .member p.sns {
+          font-size: 15px;
+          margin: 16px 0; } }
 
 /*footer*/
-/* line 378, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+/* line 562, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
 footer {
   display: flex;
   justify-content: space-between;
@@ -354,10 +544,19 @@ footer {
   height: 22rem;
   width: 33.4vw;
   margin: 0 auto; }
-  /* line 384, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
-  footer p {
+  @media (max-width: 670px) {
+    /* line 562, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+    footer {
+      width: auto;
+      padding: 0 10px; } }
+  /* line 572, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+  footer .ftp {
     font-size: 1.6rem;
     font-weight: bold;
     margin: 10.2rem 0; }
+    @media (max-width: 670px) {
+      /* line 572, /Users/uetanoriko/Desktop/メンタ課題２/menta_works_tax/stylesheet.scss */
+      footer .ftp {
+        font-size: 16px; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
